@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-#game {
+#game{
   width: 400px;
   height: 500px;
   border: 1px solid black;
@@ -11,21 +11,21 @@
   overflow: hidden;
 }
 
-#block {
+#block{
   width: 50px;
   height: 500px;
   background-color: black;
   position: relative;
-  left: 400px;  
+  left: 400px;
   animation: block 2s infinite linear;
 }
 
 @keyframes block{
-  0%{left: 400px}
-  100%{left: -50px}
+  0%{left:400px}
+  100%{left:-50px}
 }
 
-#hole {
+#hole{
   width: 50px;
   height: 150px;
   background-color: white;
