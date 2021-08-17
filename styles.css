@@ -9,3 +9,11 @@
   border: 1px solid black;
   margin: auto;
 }
+
+#block{
+  width: 50px;
+  height: 500px;
+  background-color: black;
+  position: relative;
+  left: 400px;  
+}
